@@ -22,3 +22,14 @@ let storeDescription = {
     open:       true,
 
 };
+
+console.log(typeof(storeDescription));
+let x = `text`;
+
+console.log(typeof(x));
+
+
+
+let cat = "car";
+console.log(`http://someadres/${cat}`);
+console.log(`http://someadres/` + cat);
